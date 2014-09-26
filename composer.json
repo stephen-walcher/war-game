@@ -1,0 +1,19 @@
+{
+    "name": "stephen-walcher/war-game",
+    "description": "Sample war game written in PHP",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Stephen Walcher",
+            "email": "stephenwalcher@gmail.com"
+        }
+    ],
+    "require": {
+        "fenom/fenom": "2.*"
+    },
+	"autoload": {
+		"classmap": [
+			"models"
+		]
+	}
+}
