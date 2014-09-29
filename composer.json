@@ -12,8 +12,9 @@
         "fenom/fenom": "2.*"
     },
 	"autoload": {
-		"classmap": [
-			"models"
-		]
+		"psr-4": {
+            "Walcher\\CardGame\\": "models/Walcher/CardGame",
+            "Walcher\\WarGame\\": "models/Walcher/WarGame"
+        }
 	}
 }
