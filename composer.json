@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "fenom/fenom": "2.*"
+        "kevinlebrun/colors.php": "0.*"
     },
 	"autoload": {
 		"psr-4": {
