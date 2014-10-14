@@ -82,7 +82,7 @@ class Deck implements \Walcher\CardGame\Deck {
      *
      * @param array $in_play    Array of Card objects to compare
      *
-     * @return Card|string  Highest ranking Card object or "War" if there is a tie
+     * @return Array|string  Highest ranking Card object (with the User ID as the key) or "War" if there is a tie
      */
     public function compare($in_play = [])
     {
